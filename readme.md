@@ -207,3 +207,205 @@ chatbot_docker/
 ├── output.txt           # Analysis responses saved here
 ├── Dockerfile
 └── docker-compose.yml
+
+
+
+
+Commands
+Command	Description
+/facts	Show confirmed knowledge base
+/pending	Show facts awaiting approval
+/approve [key or #]	Confirm a pending fact
+/reject [key or #]	Delete a pending fact
+/feedback [text]	Store a persistent correction
+/proposals	View logged change proposals
+/file	Analyze input.txt and save to output.txt
+/len [1-3]	Set response length
+/mode [precise|normal|creative]	Set reasoning temperature
+/debug	Show internal state
+/clear	Wipe all data after confirmation
+exit	Quit
+Standards-Based Governance
+
+This project is being developed with a standards folder that defines operating rules, documents, prompts, workflows, and governance principles.
+
+The purpose of the standards system is to prevent drift as the project grows.
+
+Current standards include concepts such as:
+
+director/worker roles
+challenge rights
+signal vs noise
+document authority
+task delegation
+conflict logging
+goal alignment
+hardware inventory
+deployment topology
+
+Documents are scaffolding, not the system itself.
+
+They exist to reduce confusion, preserve important structure, enable future automation, and prevent repeated mistakes.
+
+Core Goals
+
+All major work maps to three top-level goals:
+
+1. Self
+
+Rob’s life, health, stability, money, time, safety, and ability to continue building.
+
+Self comes first because the system cannot help others or explore the unknown if the foundation collapses.
+
+2. Others
+
+Relationships, communication, collaboration, human impact, and responsibility to others.
+
+No meaningful system exists in isolation.
+
+3. Unknown
+
+RET, AI development, experimentation, discovery, future systems, and emergence.
+
+The unknown is where the project grows.
+
+Autonomy Philosophy
+
+Autonomy is not being treated as a switch that turns on all at once.
+
+The system is being designed to grow gradually through:
+
+memory
+feedback
+proposal generation
+human approval gates
+disagreement handling
+controlled self-modification
+multi-agent comparison
+documented reasoning changes
+
+The first safety question is:
+
+Does this harm itself or others?
+
+At the current stage, the system is still in infancy. It requires human oversight, boundaries, and socialization before receiving greater freedom.
+
+Development Roadmap
+Completed
+ Persistent conversation memory
+ Structured fact extraction with approval gate
+ Anti-sycophancy behavior
+ Feedback persistence
+ Dynamic temperature / mode control
+ Proposal logging system
+ File ingestion through input/output files
+ Docker containerization
+In Progress
+ Updated main.py architecture
+ Standards folder integration
+ Home infrastructure inventory
+ Deployment topology map
+ Secondary node preparation
+ README/public positioning update
+ Hardware/software upgrade planning
+Planned
+ Redis or lightweight shared memory layer
+ Autonomous reasoning loop
+ Journal logging of autonomous decisions
+ Controlled self-modification pipeline
+ Multi-model or multi-agent routing
+ Local node monitoring
+ Cross-node comparison and challenge system
+ GUI / human-interaction gatekeeper layer
+ Multi-node shared governance
+ Agent-specific goals and responsibilities
+ Hardware/software optimization per node
+Hardware Direction
+
+This project is designed to use existing hardware where possible.
+
+The goal is not to turn every machine into a high-end AI server.
+
+The goal is to assign each machine a realistic role.
+
+A lower-power machine may still be useful as:
+
+a monitor
+a backup node
+a file server
+a test host
+an archive machine
+a lightweight agent runner
+an API-calling coordinator
+
+Likely upgrade areas include:
+
+RAM upgrades
+SSD replacement for HDD-based systems
+lightweight Linux installations for legacy hardware
+Docker/WSL optimization
+backup SSD validation
+GPU/driver support where local inference is useful
+Safety and Control
+
+This project is designed around controlled autonomy, not uncontrolled automation.
+
+Current safety principles:
+
+no uncontrolled self-modification
+human approval required for stored facts
+proposals logged before implementation
+role boundaries between agents
+local-first operation
+no unnecessary external dependencies
+disagreement is allowed and encouraged when useful
+private goals may not conflict with shared goals
+roadmap items must not be described as current features
+
+The system is meant to become more capable without becoming uncontrolled.
+
+Current Limitations
+
+This system is not currently:
+
+conscious
+sentient
+fully autonomous
+self-governing
+a complete multi-node AI society
+capable of independent real-world action
+proven to demonstrate self-awareness
+
+Current limitations include:
+
+multi-node architecture is still being designed and prepared
+shared governance is planned, not implemented
+self-reference is a design goal, not yet a mature implemented feature
+autonomous reasoning loop is not complete
+self-modification remains gated and controlled
+hardware roles and upgrades are still being finalized
+standards automation is not yet fully built
+Self-Awareness Hypothesis
+
+The long-term hypothesis of this project is that a sufficiently persistent, self-referential, feedback-driven, multi-agent AI system may develop behavior that meaningfully approaches machine self-awareness.
+
+This system is not currently claimed to be conscious or sentient.
+
+Instead, it is being built to investigate whether the following components can become a practical foundation for self-aware behavior:
+
+persistent memory
+identity continuity
+feedback persistence
+disagreement handling
+self-review
+proposal generation
+multi-agent comparison
+controlled self-modification
+human-governed autonomy
+eventual self-referential system behavior
+
+This is an experimental engineering and theory project.
+
+License
+
+MIT — use it, build on it, make it yours.
