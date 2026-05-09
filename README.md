@@ -1,7 +1,14 @@
-# Local AI Assistant — Modular Autonomous Agent
+# Local AI Assistant
 
-A locally hosted AI assistant built in Python, designed to run entirely on personal hardware using open-source models via [Ollama](https://ollama.com). Built and developed iteratively by a Network Engineer with a focus on practical utility, honest reasoning, and a long-term goal of controlled autonomous operation.
+A local-first, user-controlled, semi-autonomous AI ecosystem designed to help people build, understand, own, and shape their own AI tools.
 
+This project is early and actively evolving. The goal is not to remove human control, but to build AI systems that can help plan, remember, organize, challenge, and eventually take limited actions while keeping the user in control.
+
+## Core Principle
+
+The direction of this project is user-controlled, semi-autonomous AI.
+
+That means the system may eventually help with planning, memory, organization, testing, and limited action — but the user should remain the final authority. Trust choices should be visible, private data should stay local unless the user chooses otherwise, and cloud-assisted help should only happen when disclosed and intentional.
 ---
 
 ## What This Is
